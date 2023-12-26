@@ -1,0 +1,47 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "variables.scss";
+@import "size.scss";
+
+html {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--colors-text-text-primary-900, #171D27);
+
+    background-image: url('https://b-cdn.parcelpanel.com/background/Background2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+img{
+    width: 100%;
+}
+
+@media (min-width: 1536px){
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+}
+
+button{
+  -webkit-tap-highlight-color: transparent;
+}
+

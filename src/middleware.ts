@@ -1,24 +1,23 @@
-const locales = ['en-US', 'nl-NL', 'nl'];
+import createMiddleware from 'next-intl/middleware';
 
-export function middleware(request) {
-  // const { pathname } = request.nextUrl;
-  // const pathnameHasLocale = locales.some(
-  //   (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
-  // );
-  //
-  // if (pathnameHasLocale) return;
-  //
-  // request.nextUrl.pathname = `/${locales[0]}${pathname}`;
-  //
-  // // e.g.  /products => /en-US/products
-  // return Response.redirect(request.nextUrl);
-}
+export default createMiddleware({
+  // A list of all locales that are supported
+  locales: ['en', 'de'],
+
+  // Used when no locale matches
+  defaultLocale: 'en',
+
+  // 禁用自动区域设置检测
+  localeDetection: false,
+
+  // 只想包含非默认语言的语言前缀
+  localePrefix: 'as-needed',
+});
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next)
-    '/((?!_next).*)',
-    // Optional: only run on root (/) URL
-    // '/'
+    // Match only internationalized pathnames
+    '/(de|en)/:path*',
+    '/((?!api|_next/static|_next/image|favicon.ico|assets|apple-touch-icon.png|favicon.svg|images/books|icons|manifest).*)',
   ],
 };

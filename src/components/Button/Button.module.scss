@@ -1,0 +1,98 @@
+/* Button.css */
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: var(--spacing-lg - 2, 10px) 16px;
+  border: 2px solid var(--component-colors-components-buttons-primary-button-primary-border, #0C111D);
+  transition: all 0.2s;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  &:hover{
+    path{
+      stroke: #FFFFFF;
+    }
+  }
+}
+
+.button--default {
+  background: var(--component-colors-components-buttons-secondary-button-secondary-bg, #FFF);
+  color: var(--component-colors-components-buttons-secondary-button-secondary-fg, #000712);
+
+  &:hover{
+    background: var(--component-colors-components-buttons-primary-button-primary-bg_hover);
+    border-color: var(--component-colors-components-buttons-primary-button-primary-bg_hover);
+    color: var(--component-colors-components-buttons-primary-button-primary-fg_hover);
+  }
+}
+
+.button--primary {
+  background-color: var(--component-colors-components-buttons-primary-button-primary-bg);
+  color: var(--component-colors-components-buttons-primary-button-primary-fg, #FFF);
+
+  &:hover{
+    background: var(--component-colors-components-buttons-primary-button-primary-bg_hover);
+    border-color: var(--component-colors-components-buttons-primary-button-primary-bg_hover);
+  }
+}
+
+.button--dashed {
+  border-style: dashed;
+}
+
+.button--link {
+  background-color: transparent;
+  color: var(--component-colors-components-buttons-tertiary-color-button-tertiary-color-fg, #0049B5);
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  &:hover{
+    text-decoration: underline;
+    color: var(--component-colors-components-buttons-tertiary-color-button-tertiary-color-fg_hover);
+    path{
+      stroke: var(--component-colors-components-buttons-tertiary-color-button-tertiary-color-fg_hover);
+    }
+  }
+}
+
+.button--text {
+  background-color: transparent;
+  color: #333;
+}
+
+.button--small {
+  font-size: 0.8rem;
+}
+
+.button--large {
+  font-size: 1.2rem;
+}
+
+.button--circle {
+  border-radius: 50%;
+}
+
+.button--round {
+  border-radius: var(--radius-full, 1000px);
+}
+
+.button--full {
+  width: 100%;
+}
+
+.button__icon-before {
+  margin-right: 8px;
+}
+
+.button__icon-after {
+  margin-left: 8px;
+}
+
+.text-padding{
+  padding: 0px var(--spacing-xxs, 2px);
+}
+

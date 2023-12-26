@@ -1,0 +1,104 @@
+$lineHeight: 1.5;
+
+@mixin display-xl-bold {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px; // 120%
+  letter-spacing: -1.2px;
+}
+
+@mixin display-lg-bold {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
+}
+
+@mixin display-md-bold {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+
+@mixin display-sm-bold {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px; /* 126.667% */
+}
+@mixin display-xs-bold {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+
+@mixin text-xl {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: $lineHeight;
+}
+
+@mixin text-lg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@mixin text-md {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: $lineHeight;
+}
+
+@mixin text-sm {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@mixin text-xs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: $lineHeight;
+}
+
+.title-xl {
+  @include display-xl-bold;
+}
+
+.title-lg {
+  @include display-lg-bold;
+}
+
+.title-md {
+  @include display-md-bold;
+}
+.title-sm {
+  @include display-sm-bold;
+}
+.title-xs {
+  @include display-xs-bold;
+}
+
+.text-xl {
+  @include text-xl;
+}
+
+.text-lg {
+  @include text-lg;
+}
+
+.text-md {
+  @include text-md;
+}
+.text-md-bold {
+  @include text-md;
+  font-weight: 600;
+}
+.text-xs {
+  @include text-xs;
+}
+
+.text-sm {
+  @include text-sm;
+}

@@ -17,7 +17,6 @@
 - 🤖 SEO 元数据、JSON-LD 和 Open Graph 标签使用 Next SEO
 - ⚙️[Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 - 🖱️ 通过 Vercel 或 Netlify 一键部署（或手动部署到任何托管服务）
-- 🌈 包含一个免费主题
 - 💯 最大化 Lighthouse 分数
 
 

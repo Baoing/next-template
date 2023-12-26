@@ -1,0 +1,22 @@
+.cardWrapper{
+  border-radius: var(--radius-md, 16px);
+  border: 1px solid var(--colors-border-border-primary, #A0A3A7);
+  background: var(--colors-background-bg-primary_hover, #FFF);
+  padding: var(--spacing-3xl, 24px);
+  flex: 1;
+  height: 556px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .cardTop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cardBottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

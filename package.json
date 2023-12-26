@@ -17,10 +17,13 @@
   "dependencies": {
     "classnames": "^2.3.2",
     "next": "^14.0.0",
+    "next-intl": "^3.3.2",
     "next-seo": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.69.5",
+    "slick-carousel": "^1.8.1",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {

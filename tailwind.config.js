@@ -14,7 +14,16 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      text: {
+        xl: {},
+      },
       colors: {
+        main: {
+          // 主背景色
+          white: 'var(--colors-background-bg-white, #FFF)',
+          // 主文字色
+          color: 'var(--colors-text-text-primary-900, #171D27)',
+        },
         primary: {
           100: '#E6F6FE',
           200: '#C0EAFC',

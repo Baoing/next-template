@@ -1,0 +1,78 @@
+{
+  "Menu": {
+    "products": "Products",
+    "pricing": "Pricing",
+    "partners": "Partners",
+    "resources": "Resources",
+    "tryFree": "Try Free",
+    "bookDemo": "Book a Demo",
+    "postPurchase": "Post-purchase"
+  },
+  "Footer": {
+    "footerText": "The leading post-purchase solution for DTC eCommerce brands.",
+    "Products": "Products",
+    "OrderTracking": "Order Tracking",
+    "ReturnsExchanges": "Returns & Exchanges",
+    "ShippingProtection": "Shipping Protection",
+    "Pricing": "Pricing",
+    "Partners": "Partners",
+    "Carriers": "Carriers",
+    "Integrations": "Integrations",
+    "PartnerProgram": "Partner program",
+    "SolutionsPartner": "Solutions partner",
+    "AffiliatePartner": "Affiliate partner",
+    "TechnologyPartner": "Technology partner",
+    "Resources": "Resources",
+    "Customers": "Customers",
+    "Blog": "Blog",
+    "PlatformsBrands": "Platforms & Brands",
+    "Compare": "Compare",
+    "HelpCenter": "Help Center",
+    "SystemStatus": "System status",
+    "SiteMap": "Site map",
+    "Company": "Company",
+    "AboutUs": "About us",
+    "ContactUs": "Contact us",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsService": "Terms of Service",
+    "Copyright": "© {time} ParcelPanel. All rights reserved."
+  },
+  "Index": {
+    "title": "Home",
+    "BuiltForPeaceTitle": "Built for your peace of mind",
+    "OutBox": "Out of the box",
+    "OutBoxText": "\"Simplicity equals respect\", ParcelPanel empowers your brand in just a few minutes, with no need for coding or complex operations.",
+    "SupportTitle": "24/7 support",
+    "SupportText": "ParcelPanel offers world-class customer service. Whether it's product usage, onboarding, or migration, if you have any questions, we're here to assist you anytime, anywhere.",
+    "ContactUs": "Contact us",
+    "EnterpriseGrade": "Enterprise-grade security and compliance",
+    "JoinBrands": "“Join the 50,000+ fast-growing DTC brands” ",
+    "TryParcelPanelFree": "Try ParcelPanel Free",
+    "TrustedBrandsTitle": "Trusted by 50,000+ DTC brands",
+    "PostPurchaseSolution": "Post-purchase solution for DTC brands",
+    "EmpowerFor": "Empower post-purchase for",
+    "BookDemo": "Book a Demo",
+    "IndexInfo": "After-sales is no longer just an afterthought. ParcelPanel post-purchase solution reduces your after-sales costs while keeping your customers satisfied and driving revenue conversion."
+  },
+  "About": {
+    "title": "About",
+    "description": "This is the about page."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
+  },
+  "NotFoundPage": {
+    "errorText": "404 error",
+    "title": "Page not found",
+    "description": "Oops, looks like this page does not exist...",
+    "returnHome": "Return to Homepage"
+  },
+  "TryFree": {
+    "title": "Try ParcelPanel Free",
+    "description": "Choose the product that suits your current business to grow your brand.",
+    "desc1": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+    "desc2": "Deliver has sle-free return and enticing exchange experience to minimize losses, reduce friction, and retain revenue.",
+    "desc3": "Deliver top-tier shipping protection services to boost shopping confidence, enhance customer satisfaction, and increase profits.",
+    "LearnMore": "Learn more"
+  }
+}
